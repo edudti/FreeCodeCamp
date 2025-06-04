@@ -20,3 +20,17 @@ Run the unit tests with:
 ```bash
 dotnet test
 ```
+
+## WinForms client
+
+The `JwtClientApp` project is a simple UI built with DevExpress controls that
+demonstrates how to request a token from the API. Make sure the API is running
+and then start the client:
+
+```bash
+cd JwtClientApp
+dotnet run
+```
+
+Enter a username and click **Obtener** to retrieve the token. Use **Limpiar** to
+clear the fields.
